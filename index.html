@@ -1238,14 +1238,15 @@ bg-no-repeat bg-cover bg-center mt-14 relative coreFeatureSection">
 
             <!------------------------------------------------------------- Footer Section --------------------------------------------------------------------->
 
-            <section>
-                <div>
+            <section 
+                class="relative w-full">
+                <div class="w-11/12 max-w-[1016px] mx-auto flex gap-10 mb-6 flex-col lg:flex-row">
                     <!-- col-1 -->
-                    <div>
+                    <div >
                         <!-- div-1 -->
-                        <div>
-                            <img src="asstes/logo-803a4a65.svg" alt="">
-                            <p>
+                        <div class="flex flex-col gap-3 max-w-[260px] ">
+                            <img src="asstes/logo-dark-e6c30c29.svg" alt="" class="w-[120px] h-[24px]">
+                            <p class="font-Mulish opacity-80 text-sm leading-[1.425rem]">
                                 Razorpay is the only payments solution 
                                 in India that allows businesses to accept, 
                                 process and disburse payments with its product suite. 
@@ -1253,7 +1254,7 @@ bg-no-repeat bg-cover bg-center mt-14 relative coreFeatureSection">
                                 debit card, netbanking, UPI and popular wallets including JioMoney,
                                 Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
                             </p>
-                            <p>
+                            <p class="font-Mulish opacity-80 text-sm leading-[1.425rem]">
                                 RazorpayX supercharges your business banking experience, 
                                 bringing effectiveness, efficiency, 
                                 and excellence to all financial processes.
@@ -1261,179 +1262,191 @@ bg-no-repeat bg-cover bg-center mt-14 relative coreFeatureSection">
                                 to fully-functional current accounts, 
                                 supercharge their payouts and automate payroll compliance.
                             </p>
-                            <p>
+                            <p class="font-Mulish opacity-80 text-sm leading-[1.425rem]">
                                 Manage your marketplace, automate bank transfers,
                                 collect recurring payments, share invoices 
                                 with customers and avail working capital loans - 
                                 all from a single platform. Fast forward your business with Razorpay.
                             </p>
-                        </div>
-                       <!-- div-2 -->
-                        <div>
-                            <pre>
+                            <p class="font-Mulish opacity-80 text-[0.625] leading-[1rem] text-sm">
                                 Disclaimer: The RazorpayX powered Current Account 
                                 and VISA corporate credit card are provided by RBI 
                                 licensed banks. Your RazorpayX powered account is 
                                 provided by our partner bank, in accordance with RBI 
                                 regulations. RazorpayX itself is not a bank and doesn't 
                                 hold or claim to hold a banking license.
-                            </pre>
+                            </p>
                         </div>
                         <!-- div-3 -->
-                        <div>
-                            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-                            <label for="email"></label>
-                            <input type="email"
-                            placeholder="your Emails Address">
+                        <div class="flex flex-col gap-6 my-4">
+                            <h3 class="font-Mulish font-bold text-deepBlueHead">SUBSCRIBE TO OUR NEWSLETTER</h3>
+                            <form action="" class="border-2 flex justify-between w-full rounded-md group px-2">
+                                <input type="email" required placeholder="Your Email address" class="font-Mulish text-sm group-target::border-deepblueHead h-[30px] w-[120px]" >
 
-                            <button>
-                                Subscibe <i class="fa-solid fa-arrow-right"></i>
-                            </button>
+                                <button class="text-lightBlue500 flex items-center justify-center font-Mulish font-bold text-sm">
+                                  SUBSCRIBE
+                                  <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                                    <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                                  </svg>
+                                </button>
+                            </form>
                         </div>
                           <!-- div-4 -->
-                        <div>
-                            <img src="asstes/footer-certificate-1-21d2bad2.png" alt="">
-                            <img src="asstes/footer-certificate-2-4d9e1626.jpg" alt="">
+                        <div class="flex items-start gap-2">
+                            <img src="asstes/footer-certificate-1-21d2bad2.png" alt="" class="w-[100px]">
+                            <img src="asstes/footer-certificate-2-4d9e1626.jpg" alt="" class="max-w-[100%]">
                         </div>
                     </div>
-                    <!-- col-2 -->
-                    <div>
+                    
+                    <div class=" flex flex-col sm:flex-row flex-wrap lg:flex-nowrap sm:justify-start md:justify-between w-auto ">
+                        <!-- col-2 -->
+                    <div class=" flex flex-col gap-7 mr-[1.5rem] ">
                         <!-- div-1 -->
-                        <div>
-                            <h3>BANKING PLUS</h3>
-                            <a href="">RazorpayX</a>
-                            <a href="">Current Accounts</a>
-                            <a href="">Payouts</a>
-                            <a href="">Payout Links</a>
-                            <a href="">Corporate Credit Card</a>
-                            <a href="">View Live Demo </a>
-                            <span>NEW</span>
+                        <div class=" flex flex-col gap-1 " >
+                            <h3  class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">BANKING PLUS</h3>
+                            <a href="#"  class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">RazorpayX</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Current Accounts</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Payouts</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Payout Links</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Corporate Credit Card</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">View Live Demo 
+                                <span class=" font-mullish bg-green-500 font-bold rounded-sm text-white text-[11.5px] p-[0.2rem] px-[0.3rem] h-[1.275rem] m-[0.375rem] ">NEW</span>
+                            </a>
+                            
                         </div>
                          <!-- div-2 -->
-                        <div>
-                            <h3>LENDING</h3>
-                            <a href="">Razorpay Capital</a>
-                            <a href="">Instant Settlements</a>
-                            <a href="">Working Capital Loans</a>
-                            <a href="">Marketplace Instant Settlements</a>
+                        <div  class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">LENDING</h3>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Razorpay Capital</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Instant Settlements</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Working Capital Loans</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Marketplace Instant Settlements</a>
                         </div>
                          <!-- div-3 -->
-                        <div>
-                            <h3>BECOME A PARTNER</h3>
-                            <a href="">Refer and Earn</a>
-                            <a href="">Onboarding APIs</a>
+                        <div class=" flex flex-col gap-1 " >
+                            <h3  class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">BECOME A PARTNER</h3>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Refer and Earn</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Onboarding APIs</a>
                         </div>
                           <!-- div-4 -->
-                        <div>
-                            <h3>MORE</h3>
-                            <a href="">Route</a>
-                            <a href="">Invoices</a>
-                            <a href="">Freelancer Payments</a>
-                            <a href="">International</a>
-                            <a href="">Flash Checkout</a>
-                            <a href="">UPI</a>
-                            <a href="">ePOS</a>
-                            <a href="">Checkout Demo</a>
-                            <a href="">RazorpayX Payroll</a>
+                        <div  class=" flex flex-col gap-1 ">
+                            <h3  class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">MORE</h3>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Route</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Invoices</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Freelancer Payments</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">International</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Flash Checkout</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">UPI</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">ePOS</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Checkout Demo</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">RazorpayX Payroll</a>
                         </div>
                     </div>
+                    </div>
                    <!-- col-3 -->
-                    <div>
+                    <div  class=" flex flex-col gap-7 mr-2 ">
                         <!-- div-1 -->
-                        <div>
-                            <h3>ACCEPT PAYMENTS</h3>
-                            <a href="">Payment Gateway</a>
-                            <a href="">  Payment Pages</a>
-                            <a href=""> Payment Links</a>
-                            <a href="">QR Codes</a>
-                            <a href=""> Subscriptions</a>
-                            <a href=""> Smart Collect</a>
-                            <a href="">Optimizer</a>
+                        <div class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">ACCEPT PAYMENTS</h3>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Payment Gateway</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">  Payment Pages</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Payment Links</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">QR Codes</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Subscriptions</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Smart Collect</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Optimizer</a>
                         </div>
                          <!-- div-2 -->
-                        <div>
-                            <h3>DEVELOPERS</h3>
-                            <a href="">Docs</a>
-                            <a href=""> Integrations</a>
-                            <a href="">API Reference</a>
+                        <div class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">DEVELOPERS</h3>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Docs</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Integrations</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">API Reference</a>
                         </div>
                           <!-- div-3-->
-                        <div>
-                            <h3>RESOURCES</h3>
-                           <a href="">Blog</a>
-                           <a href=""> Customer Stories</a>
-                           <a href=""> Events</a>
-                           <a href="">Chargeback Guide</a>
-                           <a href="">Settlement Guide</a>
+                        <div  class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">RESOURCES</h3>
+                           <a href="#"  class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Blog</a>
+                           <a href="#"  class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Customer Stories</a>
+                           <a href="#"  class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Events</a>
+                           <a href="#"  class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Chargeback Guide</a>
+                           <a href="#"  class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Settlement Guide</a>
                         </div>
                          <!-- div-4 -->
-                        <div>
-                            <h3>SOLUTIONS</h3>
-                            <a href="">Education</a>
-                            <a href="">E-commerce</a>
-                            <a href="">Saas</a>
-                            <a href="">BFSI</a>
+                        <div  class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">SOLUTIONS</h3>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Education</a>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">E-commerce</a>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Saas</a>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">BFSI</a>
                             
                         </div>
                         <!-- div-5 -->
-                        <div>
-                            <h3>FREE TOOLS</h3>
-                            <a href="">GST Calculator</a>
-                            <a href="">Online TDS Payment</a>
-                            <a href="">GST Number Search </a>
-                            <span>NEW</span>
+                        <div class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">FREE TOOLS</h3>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">GST Calculator</a>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Online TDS Payment</a>
+                            <a href="" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">GST Number Search 
+                                <span class=" font-mullish bg-green-500 font-bold rounded-sm text-white text-[11.5px] p-[0.2rem] px-[0.3rem] h-[1.275rem] m-[0.375rem] ">NEW</span>
+                            </a>
+                            
                         </div>
                     </div>
                   <!-- col-4 -->
-                    <div>
+                    <div  class=" flex flex-col gap-7  w-[33.11%] ">
                         <!-- div-1 -->
-                        <div>
-                            <h3></h3>
-                           <a href="#">About Us</a>
-                           <a href="#">Careers</a>
-                           <a href="#">Terms of Use</a>
-                           <a href="#">Privacy Policy</a>
-                           <a href="#"> Grievance Redressal</a>
-                           <a href="#">Responsible Disclosure</a>
-                           <a href="#"> Partners</a>
-                           <a href="#">White Papers</a>
-                           <a href="#"> Corporate Information</a>
+                        <div class=" flex flex-col gap-1 " >
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">COMPANY</h3>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">About Us</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Careers</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Terms of Use</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Privacy Policy</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Grievance Redressal</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Responsible Disclosure</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Partners</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">White Papers</a>
+                           <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 "> Corporate Information</a>
                         </div>
                         <!-- div-2 -->
-                        <div>
-                            <h3>HELP & SUPPORT</h3>
-                            <a href="#">Support</a>
-                            <a href="#">Knowledge base</a>
+                        <div class=" flex flex-col gap-1 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">HELP & SUPPORT</h3>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Support</a>
+                            <a href="#" class=" text-lightBlue500 font-mullish w-full hover:text-deepBlueHead transition-all duration-200 ">Knowledge base</a>
                             
                         </div>
                         <!-- div-3 -->
-                        <div>
-                            <h3>FIND US ONLINE</h3>
-                            <img src="asstes/facebook-icon-2b65a866.svg" alt="">
-                            <img src="asstes/twitter-icon-82cbd3e5.svg" alt="">
-                            <img src="asstes/instagram-icon-6c2b0c16.svg" alt="">
-                            <img src="asstes/github-icon-e2d5f6a2.svg" alt="">
-                            <img src="asstes/linkedin-icon-5471e826.svg" alt="">
+                        <div class=" flex flex-col gap-3 ">
+                            <h3 class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">FIND US ONLINE</h3>
+                          <DIV class=" flex gap-4 ">
+                            <img src="asstes/facebook-icon-2b65a866.svg" alt="" class=" w-[1.5rem] ">
+                            <img src="asstes/twitter-icon-82cbd3e5.svg" alt="" class=" w-[1.5rem] ">
+                            <img src="asstes/instagram-icon-6c2b0c16.svg" alt="" class=" w-[1.5rem] ">
+                            <img src="asstes/github-icon-e2d5f6a2.svg" alt="" class=" w-[1.5rem] ">
+                            <img src="asstes/linkedin-icon-5471e826.svg" alt="" class=" w-[1.5rem] ">
+                          </DIV>
                         </div>
                         <!-- div-4 -->
-                        <div>
-                          <h3>REGD. OFFICE ADDRESS</h3>
-                          <pre>
+                        <div class=" flex flex-col gap-5 mt-8 " >
+                          <h3  class=" font-mullish font-bold text-deepBlueHead text-[1rem] tracking-wider ">REGD. OFFICE ADDRESS</h3>
+                          <p class=" font-mullish text-[0.9rem] leading-5 ">
                             Razorpay Software Private Limited,
-                            1st Floor, SJR Cyber,
-                            22 Laskar Hosur Road, Adugodi,
-                            Bengaluru, 560030,
-                            Karnataka, India
+                            <br>1st Floor, SJR Cyber,
+                            <br>22 Laskar Hosur Road, Adugodi,
+                            <br>Bengaluru, 560030,
+                            <br>Karnataka, India
                             CIN: U72200KA2013PTC097389
-                          </pre>
-                          <pre>
+                          </p>
+                          <p class=" font-mullish text-[0.9rem] " >
                             © Razorpay 2022
-                            All Rights Reserved
-                          </pre>
+                            <br>All Rights Reserved
+                          </p>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!----------------------------------------------------------------the end------------------------------------------------------------------------- -->
+
     </div>
 
 </body>
