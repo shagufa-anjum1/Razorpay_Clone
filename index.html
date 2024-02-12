@@ -152,6 +152,7 @@ class="relative bg-deepBlue">
    <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
        <!----------- Heading------------ -->
        <h2 class="font-Mulish text-center text-2xl leading-[1.2] font-extrabold hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+       <h2 class="font-Mulish text-center text-3xl leading-[1.2] font-extrabold md:hidden">Explore Razorpay Payment Suite</h2>
        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
        <!------------ Content box---------- -->
@@ -216,7 +217,7 @@ class="relative bg-deepBlue">
             class="max-w-[600px] absolute right-0 bottom-0 hidden md:mx-w-[400px] lg:mx-w-[600px] md:block lg:block">
        </div>
        <!------------------------------------------------------------------------------ Boxxx-------------------------------------------- -->
- <div class="w-full grid grid-cols-3 gap-4 mt-10">
+ <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
    <!-- box1 -->
    <div class="w-full min-h-[15rem] relative cursor-pointer">
        <img src="images/payment-link-icon.svg" alt=""
@@ -580,18 +581,18 @@ class="relative bg-deepBlue">
                        </li>
                    </ul>
 
-                   <div class="flex flex-row w-full items-center space-x-4">
+                   <div class="flex flex-col-reverse md:flex-row w-full items-center space-x-4">
                        <button
                        class="relative bg-lightBlue w-full md:w-fit flex items-center justify-center md:justify-start
                        text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-Mulish font-bold hover:bg-lightBlue 
-                       transition-all duration-200">
+                       transition-all duration-200 self-stretch">
                            Sign Up
                            <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex justify-center items-center">
                                <i class="fa-solid fa-arrow-right -skew-x-[20deg]"></i>
                            </div>
                        </button>
                        <!-- hyperLink -->
-                       <div class="flex flex-row items-center cursor-pointer group">
+                       <div class="flex flex-row self-start md:items-center cursor-pointer group">
                            <a href="#"
                               class="text-lightBlue500 font-Mulish font-bold group-hover:text-lightBlue transition-all duration-200"
                              >Know More
@@ -604,11 +605,11 @@ class="relative bg-deepBlue">
                <!-- background-image-for-content-box-->
                <img src="images/buisness-banking.png" alt=""
                loading="lazy"
-               class="max-w-[600px] absolute right-0 bottom-0 z-4">
+               class="max-w-[600px] absolute right-0 bottom-0 z-4 hidden md:mx-w-[400px] lg:mx-w-[600px] md:block lg:block ">
 
            </div>
            <!------------------------------------------------------------ Card-box-------------------------------- -->
-           <div class="grid grid-cols-3 w-full gap-4 my-14">
+           <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-14">
                <!-- box-1 -->
 
                <div 
@@ -657,18 +658,18 @@ class="relative bg-deepBlue">
                             
                        </div>
                    </div>
-           
+             
                </div>
 
                <!-- box-2 -->
 
                <div 
-               class="w-full min-h-[15rem] relative cursor-pointer featureCard2 ">
-               <img src="images/capital-credit-icon.svg" alt=""
-               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80]
-               transition-all duration-200 featureCardIcon">
-               <!-- box shape -->
-               <svg
+                  class="w-full min-h-[15rem] relative cursor-pointer featureCard2 ">
+                  <img src="images/capital-credit-icon.svg" alt=""
+                  class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80]
+                  transition-all duration-200 featureCardIcon">
+                  <!-- box shape -->
+                 <svg
                    viewBox="0 0 349.32501220703125 225"
                    xmlns="http://www.w3.org/2000/svg"
                    preserveAspectRatio="none"
@@ -689,9 +690,9 @@ class="relative bg-deepBlue">
                        z"
                        fill="#181c2e">
                    </path>
-               </svg>
-               <!-- box-content -->
-               <div class="z-[100] absolute h-full w-full flex flex-col justify-between pl-5 py-6 pr-8">
+                  </svg>
+                 <!-- box-content -->
+                 <div class="z-[100] absolute h-full w-full flex flex-col justify-between pl-5 py-6 pr-8">
                    <!-- text-part -->
                    <div>
                        <h3 class="font-Mulish font-bold text-white leading-[1.2] text-[1.375rem] ">Capital & Credit</h3>
@@ -707,7 +708,7 @@ class="relative bg-deepBlue">
                        </a>
                         
                    </div>
-               </div>
+                 </div>
        
                </div>
           
@@ -760,7 +761,7 @@ class="relative bg-deepBlue">
                    </div>
                </div>
        
-               </div>
+            </div>
           
 
                
@@ -768,8 +769,8 @@ class="relative bg-deepBlue">
            </div>
 
            <!----------------------------------------------------------- Demo-box------------------------------------->
-           <div class="w-full flex flex-row items-center justify-evenly border border-slate-700
-           mb-24 gap-y-6 p-8 relative rounded-md">
+           <div class="w-full flex-row items-center justify-evenly border border-slate-700
+                     mb-24 gap-y-6 p-8 relative rounded-md md:flex md:flex-col lg:flex-row lg:flex">
              
                <p class="font-Mulish text-white text-xl"> Check Out the live demo to learn how RazorpayX works.
                    <span class="font-bold">
